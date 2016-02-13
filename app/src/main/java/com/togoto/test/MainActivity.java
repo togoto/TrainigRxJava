@@ -45,10 +45,6 @@ public class MainActivity extends FragmentActivity {
                     }
                 });
 
-        /*EditText editText = new EditText(this);
-        RxTextView.textChanges(editText)
-                .subscribe(tx::setText);*/
-
        EditText editText = (EditText) findViewById(R.id.editText);
         RxTextView.textChanges(editText)
                 .subscribe(new Action1<CharSequence>() {
@@ -58,9 +54,6 @@ public class MainActivity extends FragmentActivity {
                     }
                 });
 
-
-//        helloWorld();
-       // helloWordSimple1();
     }
 
     private  void helloWorld(){
