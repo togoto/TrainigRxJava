@@ -54,6 +54,9 @@ public class MainActivity extends FragmentActivity {
                     }
                 });
 
+
+//        helloWorld();
+       // helloWordSimple1();
     }
 
     private  void helloWorld(){
@@ -89,6 +92,9 @@ public class MainActivity extends FragmentActivity {
         };
         observable.subscribe(subscriber);
 
+
+//        helloWorld();
+       // helloWordSimple1();
     }
 
     private  void helloWordSimple1(){
@@ -117,6 +123,9 @@ public class MainActivity extends FragmentActivity {
 
 //        Action1<String> action1 = s -> tx.setText(s);
 
+
+//        helloWorld();
+       // helloWordSimple1();
     }
 
 
